@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>watchersky</title>
+  </head>
+  <body>
+    <div id="app">
+      <watchersky-hello-world :color="color" :msg="msg"></watchersky-hello-world>
+      <moor-switch
+      v-model="lightSwitch">开关:</moor-switch>
+    </div>
+    <!-- <script src="./node_modules/vue/dist/vue.js"></script> -->
+    <script src="/dist/watchersky.js"></script>
+  </body>
+  <script>
+  // new Vue({
+  //   el: '#app',
+  //   data() {
+  //     return {
+  //       color: 'red',
+  //       msg: 'hello world!',
+  //       lightSwitch: false
+  //     }
+  //   }
+  // })
+  </script>
+</html>
